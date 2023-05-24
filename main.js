@@ -1,4 +1,4 @@
-const API_URL = 'https://api.thecatapi.com/v1/images/search?limit=3&page=3';
+const API_URL = 'https://api.thecatapi.com/v1/images/search?limit=4&page=3&api_key=live_OcV8p3ZtnYwXmjpVEPwg9ZycNNluEisF5r86MFkSMBf0bMMhfNmD9iz3T7r5KDtL';
 
 /* fetch(API_URL)
     .then(res => res.json())
