@@ -10,11 +10,38 @@
 </head>
 
 <body>
-    <h1>Gatitos Aleatorios</h1>
-    <img id="img1" width="200px" alt="foto-gatito">
-    <img id="img2" width="200px" alt="foto-gatito">
-    <br>
-    <img id="img3" width="200px" alt="foto-gatito">
-    <img id="img4" width="200px" alt="foto-gatito">
-    <button id="btn" style="position: absolute; right: 50px; top: 50px;">Click aquí</button>
+    <h1>Michis App</h1>
+
+    <section id="randomMichis">
+        <h2>Michis aleatorios</h2>
+        <span id="error"></span>
+
+        <article>
+            <img id="img1" width="200px" alt="foto-gatito">
+            <button id="btn1" onclick="saveFavoriteMichis()">Guardar fav</button>
+        </article>
+    
+        <article>
+            <img id="img2" width="200px" alt="foto-gatito">
+            <button id="btn2" onclick="saveFavoriteMichis()">Guardar fav</button>
+        </article> <br>
+    
+        <article>
+            <img id="img3" width="200px" alt="foto-gatito">
+            <button id="btn3" onclick="saveFavoriteMichis()">Guardar fav</button>
+        </article>
+
+        <button id="btn" style="position: absolute; right: 50px; top: 50px;">Click aquí</button>
+    </section>
+
+    <section id="favoritesMichis">
+        <h2>Michis Favoritos</h2>
+        <article>
+            <img id="img4" width="200px" alt="foto-gatito">
+            <button>Sacar fav</button>
+        </article>
+    </section>
+
+
+    
 </body>
